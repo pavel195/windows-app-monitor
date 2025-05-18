@@ -1,0 +1,24 @@
+[project]
+name = "windows-manager"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "pav"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "keyboard (>=0.13.5,<0.14.0)",
+    "wmi (>=1.5.1,<2.0.0)",
+    "pywin32 (>=310,<311)",
+    "psutil (>=7.0.0,<8.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "pillow (>=11.2.1,<12.0.0)",
+    "python-telegram-bot (>=22.1,<23.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

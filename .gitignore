@@ -1,6 +1,8 @@
-.env 
-.log
-app.log
-
+logs
+.venv
 __pycache__
+.env
+.vscode
+
+
 
